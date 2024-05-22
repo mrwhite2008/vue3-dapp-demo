@@ -71,7 +71,7 @@ onMounted(() => {
       <el-button type="danger" @click="disconnectWallet">断开钱包</el-button>
       <p>钱包地址：{{ account }}</p>
       <p>链ID：{{ chainId }}</p>
-      <Operation />
+      <!-- <Operation /> -->
     </div>
   </div>
 </template>

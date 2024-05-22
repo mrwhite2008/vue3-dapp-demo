@@ -187,7 +187,7 @@ onMounted(() => {
       <el-table-column prop="message" label="消息" minWidth="120" />
       <el-table-column prop="timestamp" label="时间戳">
         <template #default="scope">
-          <!-- {{ timestampToDate(Number(scope.row.timestamp)) }} -->
+          {{ timestampToDate(Number(scope.row.timestamp)) }}
         </template>
       </el-table-column>
     </el-table>
