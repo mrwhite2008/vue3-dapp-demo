@@ -5,6 +5,7 @@
  * @LastEditors: Jack Chen
  * @LastEditTime: 2024-04-18 07:08:04
 -->
+<!--
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { ethers, BigNumberish } from "ethers"
@@ -214,4 +215,4 @@ onMounted(() => {
   color: red;
   font-size: 20px;
 }
-</style>
+</style>-->
