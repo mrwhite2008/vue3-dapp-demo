@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue'
 import { ethers } from "ethers"
 import { ElMessage, ElNotification } from 'element-plus'
-import Operation from './Operation.vue'
+// import Operation from './Operation.vue'
 
 const account = ref<string | undefined>(localStorage.getItem("account") || "")
 const chainId = ref<string | undefined>(localStorage.getItem("chainId") || "")
